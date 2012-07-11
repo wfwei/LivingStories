@@ -6,33 +6,33 @@
 /*
  This file generated from:
 
- D:\Users\WangFengwei\git_workspace\living-stories\src\com\google\livingstories\gxps\ContentManagerHtml.gxp
+ D:\Users\WangFengwei\Workspaces\MyEclipse 10\living-stories\src\com\google\livingstories\gxps\ContentManagerHtml.gxp
 */
 
 package com.google.livingstories.gxps;
 
 import com.google.gxp.base.*;
-import com.google.gxp.css.*;                                                    // D:\Users\WangFengwei\git_workspace\living-stories\src\com\google\livingstories\gxps\ContentManagerHtml.gxp: L20, C67
-import com.google.gxp.html.*;                                                   // D:\Users\WangFengwei\git_workspace\living-stories\src\com\google\livingstories\gxps\ContentManagerHtml.gxp: L20, C67
-import com.google.gxp.js.*;                                                     // D:\Users\WangFengwei\git_workspace\living-stories\src\com\google\livingstories\gxps\ContentManagerHtml.gxp: L20, C67
-import com.google.gxp.text.*;                                                   // D:\Users\WangFengwei\git_workspace\living-stories\src\com\google\livingstories\gxps\ContentManagerHtml.gxp: L20, C67
+import com.google.gxp.css.*;                                                    // D:\Users\WangFengwei\Workspaces\MyEclipse 10\living-stories\src\com\google\livingstories\gxps\ContentManagerHtml.gxp: L20, C67
+import com.google.gxp.html.*;                                                   // D:\Users\WangFengwei\Workspaces\MyEclipse 10\living-stories\src\com\google\livingstories\gxps\ContentManagerHtml.gxp: L20, C67
+import com.google.gxp.js.*;                                                     // D:\Users\WangFengwei\Workspaces\MyEclipse 10\living-stories\src\com\google\livingstories\gxps\ContentManagerHtml.gxp: L20, C67
+import com.google.gxp.text.*;                                                   // D:\Users\WangFengwei\Workspaces\MyEclipse 10\living-stories\src\com\google\livingstories\gxps\ContentManagerHtml.gxp: L20, C67
 
-public class ContentManagerHtml extends com.google.gxp.base.GxpTemplate {       // D:\Users\WangFengwei\git_workspace\living-stories\src\com\google\livingstories\gxps\ContentManagerHtml.gxp: L20, C67
+public class ContentManagerHtml extends com.google.gxp.base.GxpTemplate {       // D:\Users\WangFengwei\Workspaces\MyEclipse 10\living-stories\src\com\google\livingstories\gxps\ContentManagerHtml.gxp: L20, C67
 
   public static void write(final java.lang.Appendable gxp$out, final com.google.gxp.base.GxpContext gxp_context, final String mapsKey)
       throws java.io.IOException {
     final java.util.Locale gxp_locale = gxp_context.getLocale();
-    gxp$out.append("<html><head><meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\"");   // D:\Users\WangFengwei\git_workspace\living-stories\src\com\google\livingstories\gxps\ContentManagerHtml.gxp: L25, C5
-    if (gxp_context.isUsingXmlSyntax()) {                                       // D:\Users\WangFengwei\git_workspace\living-stories\src\com\google\livingstories\gxps\ContentManagerHtml.gxp: L27, C9
-      gxp$out.append(" /");                                                     // D:\Users\WangFengwei\git_workspace\living-stories\src\com\google\livingstories\gxps\ContentManagerHtml.gxp: L27, C9
+    gxp$out.append("<html><head><meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\"");   // D:\Users\WangFengwei\Workspaces\MyEclipse 10\living-stories\src\com\google\livingstories\gxps\ContentManagerHtml.gxp: L25, C5
+    if (gxp_context.isUsingXmlSyntax()) {                                       // D:\Users\WangFengwei\Workspaces\MyEclipse 10\living-stories\src\com\google\livingstories\gxps\ContentManagerHtml.gxp: L27, C9
+      gxp$out.append(" /");                                                     // D:\Users\WangFengwei\Workspaces\MyEclipse 10\living-stories\src\com\google\livingstories\gxps\ContentManagerHtml.gxp: L27, C9
     }
-    gxp$out.append("> <link type=\"text/css\" rel=\"stylesheet\" href=\"ContentManager.css\"");   // D:\Users\WangFengwei\git_workspace\living-stories\src\com\google\livingstories\gxps\ContentManagerHtml.gxp: L27, C9
-    if (gxp_context.isUsingXmlSyntax()) {                                       // D:\Users\WangFengwei\git_workspace\living-stories\src\com\google\livingstories\gxps\ContentManagerHtml.gxp: L31, C9
-      gxp$out.append(" /");                                                     // D:\Users\WangFengwei\git_workspace\living-stories\src\com\google\livingstories\gxps\ContentManagerHtml.gxp: L31, C9
+    gxp$out.append("> <link type=\"text/css\" rel=\"stylesheet\" href=\"ContentManager.css\"");   // D:\Users\WangFengwei\Workspaces\MyEclipse 10\living-stories\src\com\google\livingstories\gxps\ContentManagerHtml.gxp: L27, C9
+    if (gxp_context.isUsingXmlSyntax()) {                                       // D:\Users\WangFengwei\Workspaces\MyEclipse 10\living-stories\src\com\google\livingstories\gxps\ContentManagerHtml.gxp: L31, C9
+      gxp$out.append(" /");                                                     // D:\Users\WangFengwei\Workspaces\MyEclipse 10\living-stories\src\com\google\livingstories\gxps\ContentManagerHtml.gxp: L31, C9
     }
-    gxp$out.append("> <title>Living Stories Content Manager</title> <script type=\"text/javascript\" language=\"javascript\" src=\"ContentManager/ContentManager.nocache.js\"></script> <script type=\"text/javascript\">\n          window.LIVING_STORY = {\n            MAPS_KEY: ");   // D:\Users\WangFengwei\git_workspace\living-stories\src\com\google\livingstories\gxps\ContentManagerHtml.gxp: L31, C9
-    com.google.gxp.js.JavascriptAppender.INSTANCE.append(gxp$out, gxp_context, (mapsKey));   // D:\Users\WangFengwei\git_workspace\living-stories\src\com\google\livingstories\gxps\ContentManagerHtml.gxp: L37, C23
-    gxp$out.append("\n          };\n        </script></head> <body><iframe src=\"javascript:&#39;&#39;\" id=\"__gwt_historyFrame\" style=\"position:absolute;width:0;height:0;border:0\"></iframe> <h1>Living Stories Content Manager</h1></body></html>");   // D:\Users\WangFengwei\git_workspace\living-stories\src\com\google\livingstories\gxps\ContentManagerHtml.gxp: L37, C49
+    gxp$out.append("> <title>Living Stories Content Manager</title> <script type=\"text/javascript\" language=\"javascript\" src=\"ContentManager/ContentManager.nocache.js\"></script> <script type=\"text/javascript\">\n          window.LIVING_STORY = {\n            MAPS_KEY: ");   // D:\Users\WangFengwei\Workspaces\MyEclipse 10\living-stories\src\com\google\livingstories\gxps\ContentManagerHtml.gxp: L31, C9
+    com.google.gxp.js.JavascriptAppender.INSTANCE.append(gxp$out, gxp_context, (mapsKey));   // D:\Users\WangFengwei\Workspaces\MyEclipse 10\living-stories\src\com\google\livingstories\gxps\ContentManagerHtml.gxp: L37, C23
+    gxp$out.append("\n          };\n        </script></head> <body><iframe src=\"javascript:&#39;&#39;\" id=\"__gwt_historyFrame\" style=\"position:absolute;width:0;height:0;border:0\"></iframe> <h1>Living Stories Content Manager</h1></body></html>");   // D:\Users\WangFengwei\Workspaces\MyEclipse 10\living-stories\src\com\google\livingstories\gxps\ContentManagerHtml.gxp: L37, C49
   }
 
   private static final java.util.List<String> GXP$ARGLIST = java.util.Collections.unmodifiableList(java.util.Arrays.asList("mapsKey"));

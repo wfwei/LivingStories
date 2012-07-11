@@ -6,28 +6,28 @@
 /*
  This file generated from:
 
- D:\Users\WangFengwei\git_workspace\living-stories\src\com\google\livingstories\gxps\AnalyticsBlock.gxp
+ D:\Users\WangFengwei\Workspaces\MyEclipse 10\living-stories\src\com\google\livingstories\gxps\AnalyticsBlock.gxp
 */
 
 package com.google.livingstories.gxps;
 
 import com.google.gxp.base.*;
-import com.google.gxp.css.*;                                                    // D:\Users\WangFengwei\git_workspace\living-stories\src\com\google\livingstories\gxps\AnalyticsBlock.gxp: L21, C67
-import com.google.gxp.html.*;                                                   // D:\Users\WangFengwei\git_workspace\living-stories\src\com\google\livingstories\gxps\AnalyticsBlock.gxp: L21, C67
-import com.google.gxp.js.*;                                                     // D:\Users\WangFengwei\git_workspace\living-stories\src\com\google\livingstories\gxps\AnalyticsBlock.gxp: L21, C67
-import com.google.gxp.text.*;                                                   // D:\Users\WangFengwei\git_workspace\living-stories\src\com\google\livingstories\gxps\AnalyticsBlock.gxp: L21, C67
+import com.google.gxp.css.*;                                                    // D:\Users\WangFengwei\Workspaces\MyEclipse 10\living-stories\src\com\google\livingstories\gxps\AnalyticsBlock.gxp: L21, C67
+import com.google.gxp.html.*;                                                   // D:\Users\WangFengwei\Workspaces\MyEclipse 10\living-stories\src\com\google\livingstories\gxps\AnalyticsBlock.gxp: L21, C67
+import com.google.gxp.js.*;                                                     // D:\Users\WangFengwei\Workspaces\MyEclipse 10\living-stories\src\com\google\livingstories\gxps\AnalyticsBlock.gxp: L21, C67
+import com.google.gxp.text.*;                                                   // D:\Users\WangFengwei\Workspaces\MyEclipse 10\living-stories\src\com\google\livingstories\gxps\AnalyticsBlock.gxp: L21, C67
 
-public class AnalyticsBlock extends com.google.gxp.base.GxpTemplate {           // D:\Users\WangFengwei\git_workspace\living-stories\src\com\google\livingstories\gxps\AnalyticsBlock.gxp: L21, C67
+public class AnalyticsBlock extends com.google.gxp.base.GxpTemplate {           // D:\Users\WangFengwei\Workspaces\MyEclipse 10\living-stories\src\com\google\livingstories\gxps\AnalyticsBlock.gxp: L21, C67
 
   public static void write(final java.lang.Appendable gxp$out, final com.google.gxp.base.GxpContext gxp_context, final String analyticsAccountId)
       throws java.io.IOException {
     final java.util.Locale gxp_locale = gxp_context.getLocale();
-    if (analyticsAccountId.isEmpty()) {                                         // D:\Users\WangFengwei\git_workspace\living-stories\src\com\google\livingstories\gxps\AnalyticsBlock.gxp: L24, C3
-      gxp$out.append("<script type=\"text/javascript\">var _gaq = null;</script>");   // D:\Users\WangFengwei\git_workspace\living-stories\src\com\google\livingstories\gxps\AnalyticsBlock.gxp: L25, C5
+    if (analyticsAccountId.isEmpty()) {                                         // D:\Users\WangFengwei\Workspaces\MyEclipse 10\living-stories\src\com\google\livingstories\gxps\AnalyticsBlock.gxp: L24, C3
+      gxp$out.append("<script type=\"text/javascript\">var _gaq = null;</script>");   // D:\Users\WangFengwei\Workspaces\MyEclipse 10\living-stories\src\com\google\livingstories\gxps\AnalyticsBlock.gxp: L25, C5
     } else {
-      gxp$out.append("<script type=\"text/javascript\">\n      var _gaq = _gaq || [];\n      _gaq.push(['_setAccount', ");   // D:\Users\WangFengwei\git_workspace\living-stories\src\com\google\livingstories\gxps\AnalyticsBlock.gxp: L27, C5
-      com.google.gxp.js.JavascriptAppender.INSTANCE.append(gxp$out, gxp_context, (analyticsAccountId));   // D:\Users\WangFengwei\git_workspace\living-stories\src\com\google\livingstories\gxps\AnalyticsBlock.gxp: L29, C33
-      gxp$out.append("]);\n      _gaq.push(['_trackPageview']);\n      document.documentElement.firstChild.appendChild(document.createElement('script')).src = \n          ('https:' === document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\n    </script>");   // D:\Users\WangFengwei\git_workspace\living-stories\src\com\google\livingstories\gxps\AnalyticsBlock.gxp: L29, C70
+      gxp$out.append("<script type=\"text/javascript\">\n      var _gaq = _gaq || [];\n      _gaq.push(['_setAccount', ");   // D:\Users\WangFengwei\Workspaces\MyEclipse 10\living-stories\src\com\google\livingstories\gxps\AnalyticsBlock.gxp: L27, C5
+      com.google.gxp.js.JavascriptAppender.INSTANCE.append(gxp$out, gxp_context, (analyticsAccountId));   // D:\Users\WangFengwei\Workspaces\MyEclipse 10\living-stories\src\com\google\livingstories\gxps\AnalyticsBlock.gxp: L29, C33
+      gxp$out.append("]);\n      _gaq.push(['_trackPageview']);\n      document.documentElement.firstChild.appendChild(document.createElement('script')).src = \n          ('https:' === document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\n    </script>");   // D:\Users\WangFengwei\Workspaces\MyEclipse 10\living-stories\src\com\google\livingstories\gxps\AnalyticsBlock.gxp: L29, C70
     }
   }
 
